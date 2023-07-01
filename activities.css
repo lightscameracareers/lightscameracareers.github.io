@@ -143,3 +143,117 @@
     color: #e0b46c;
   }
 }
+
+@media (min-width: 900px){
+  .actContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 5.2rem;
+  }
+
+  .aIW{
+    width: 20%;
+    position: relative;
+    margin: 2.6em auto 5.2em auto;
+  }
+
+  .aIC{
+    width: 100%;
+    text-align: center;
+    position: relative;
+  }
+
+  .aIT{
+    position: absolute;
+    background-color: #a00c04;
+    width: 100%;
+    bottom: 0;
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: luckiest guy;
+    font-size: 3.2vh;
+    color: #f8eca4;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    font-style: italic;
+  }
+
+  .actImg{
+    width: 100%;
+    border-radius: 20%;
+  }
+
+  .aM{
+    font-family: luckiest guy;
+    font-size: 2.6em;
+    margin-bottom: 52px;
+  }
+
+  .seminarAct{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    position: relative;
+    margin: auto auto 1.8em auto;
+    display: none;
+  }
+
+  .seminarTitle{
+    font-family: audiowide;
+    font-size: 1.5em;
+    margin: 2.6em auto 1em auto;
+    font-weight: bolder;
+    display: none;
+  }
+
+  .speakerName{
+    position: relative;
+    background-color: #a00c04;
+    width: 130%;
+    padding: 0.52em;
+    color: #f8eca4;
+    font-family: luckiest guy;
+  }
+
+  .speakerName .speakerDesc{
+    font-family: lexend;
+    font-size: 0.5em;
+    width: 100%;
+    margin-top: 0.3em;
+  }
+
+  .speakerBionote{
+    font-size: .91em;
+    margin: auto auto 2.6em auto;
+    display: none;
+  }
+  
+
+  .speakerBionote a{
+    color: #a00c04;
+    font-family: audiowide;
+  }
+
+  .speakerBionote a:visited{
+    text-decoration: none;
+  }
+
+  .rN{
+    background-color: #383434;
+    padding: 26px 26px 52px 26px;
+    font-size: 1.3em;
+    font-family: audiowide;
+    color: #f8eca4;
+    text-align: center;
+  }
+
+  .rN a{
+    color: #e0b46c;
+  }
+}
