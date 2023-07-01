@@ -1,0 +1,193 @@
+@media (min-width: 300px){
+  
+  /*main*/
+
+  #mainContent{
+    height: 100%;
+    z-index: -9999;
+    background-color: #212121;
+  }
+
+  #mainContent.active{
+    background-color: #212121;
+    transition: 0.65s ease-in-out;
+    -webkit-filter: blur(8px);
+  }
+
+  .mainContentContainer{
+  }
+
+  .introWrapper img{
+    width: 117px;
+    border-radius: 50%;
+  }
+
+  .introWrapper{
+    text-align: center;
+    padding-top: 78px;
+  }
+
+  .titleIntro{
+    margin-top: 13px;
+    font-size: 2em;
+    font-family: 'audiowide';
+    color: #f8eca4;
+    font-weight: bolder;
+    padding: 0.5em;
+  }
+
+  /* registration */
+
+  .registrationMsg{
+    text-align: center;
+    padding: 13px 13px 13px 13px;
+    color: white;
+    font-family: audiowide;
+    font-size: 0.78em;
+    word-spacing: 2px;
+    line-height: 1.5em;
+  }
+
+  .registrationMsg a{
+    color: #e0b46c;
+    font-weight: bold;
+    text-underline-offset: 2.6px;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    padding: auto;
+    height: 100%;
+    margin: auto;
+    background-color: #212121;
+    padding: 26px;
+    color: #f8eca4;
+    font-size: 1em;
+  }
+
+  .regQ{
+    font-family: Russo One;
+  }
+
+  .emailAdd{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.3em;
+    gap: 10em;
+    width: 78vw;
+  }
+
+  .emailAdd label{
+    width: 100%;
+  }
+
+  .emailAdd input{
+    width: 100%;
+    background-color: #131313;
+    border: none;
+    border-bottom: #b1b1b1 1px solid;
+    height: 1.3em;
+    margin-top: 5px;
+    color: white;
+    font-size: large;
+    padding: 0.39em;
+    transition: 0.35s;
+    font-family: lexend;
+  }
+
+  input[type=email]:active, input[type=email]:focus, input[type=text]:active, input[type=text]:focus{
+    background-color: #acacac3d;
+    outline: none;
+  }
+
+  .name{
+    display: flex;
+    padding: 1.3em;
+    gap: 10em;
+    width: 78vw;
+  }
+
+  .name label{
+    width: 100%;
+  }
+
+  .name input{
+    width: 100%;
+    background-color: #131313;
+    border: none;
+    border-bottom: #b1b1b1 1px solid;
+    height: 1.3em;
+    margin-top: 5px;
+    font-size: large;
+    color: white;
+    padding: 0.39em;
+    transition: 0.35s;
+    font-family: lexend;
+  }
+
+  .section{
+    display: flex;
+    padding: 1.3em;
+    gap: 10em;
+    width: 78vw;
+  }
+
+  .section label.regQ{
+    width: 100%;
+  }
+
+  .sectionOptions{
+    padding: 1em;
+  }
+
+  input[name=Section]{
+    margin: 0.65em;
+  }
+
+  input[type=submit]{
+    padding: 1.8em 1.3em 1.8em 1.3em;
+    font-weight: bolder;
+    font-family: audiowide;
+    width: 260px;
+    background-color: #a00c04;
+    color: #f8eca4;
+    border-width: 0;
+    margin-bottom: 52px;
+    border-radius: 13px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  input[type=submit]:active{
+    padding: 1.8em 1.3em 1.8em 1.3em;
+    width: 260px;
+    background-color: #f8eca4;
+    color: #a00c04;
+    border-width: 0;
+    margin-bottom: 52px;
+    border-radius: 13px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: 0.35s;
+  }
+
+  .ictReg{
+    text-align: center;
+    padding-bottom: 2.6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ictReg a{
+    color: white;
+    font-family: Ysabeau SC;
+    font-weight: bolder;
+  }
+}

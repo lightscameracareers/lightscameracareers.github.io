@@ -1,0 +1,55 @@
+/* intro - countdown */
+
+.countdownContainer{
+  position: fixed;
+  z-index: 99999;
+  color: #f8eca4;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Bruno Ace';
+  background-color: #131313;
+  padding: 0.52em;
+  width: 65px;
+  height: 91px;
+  border-bottom-right-radius: 26%;
+}
+
+#headline{
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 0.52em;
+}
+
+ul.ulCd{
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+li.cd {
+  display: inline-block;
+  font-size: 0.7em;
+  list-style-type: none;
+  text-transform: uppercase;
+  margin: 0.52em;
+  color: rgb(216, 216, 216);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+}
+
+li.cd span {
+  display: block;
+  font-size: 2.6em;
+  font-weight: bold;
+  color: #f8eca4;
+  padding: 0.26em;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.ulCd #days{
+  margin-top: -18px;
+}

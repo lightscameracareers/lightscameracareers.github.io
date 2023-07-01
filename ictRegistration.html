@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="ictRegistration.css">
+  <link rel="stylesheet" type="text/css" href="headerSide.css">
+  <link rel="stylesheet" type="text/css" href="all.css">
+  <link rel="stylesheet" type="text/css" href="evC.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="headerContainer">
+      <div class="headerWrapper">
+
+        <a href="home.html">
+          <div class="logo">
+            <img src="logo.png">
+          </div>
+        </a>
+        
+        <div id="sidebar">
+          <div id="introSidebar">
+            <div id="titleSidebar">
+              Lights, Camera, Careers!
+            </div>
+          </div>
+
+          <nav>
+            <ul>
+              <li><a href="home.html" target="_self">Home</a></li>
+              <li><a href="activities.html">Activities</a></li>
+              <li><a href="program.html">Program Flow</a></li>
+              <li><a href="registration.html">Registration</a></li>
+            </ul>
+          </nav>
+
+          <div class="ccSidebar">
+            <a href="https://www.facebook.com/LightsCameraCareers">
+              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" fill="#a00c04" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg>
+            </a>
+            
+            <a href="mailto:lightscameracareers@gmail.com">
+              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" fill="#a00c04" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <div id="toggle"></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="mainContent">
+      <div class="mainContentContainer">
+
+        <div class="introWrapper">
+          <div class="titleIntro">
+            ICT
+          </div>
+          <div class="regIntro">
+            <i>
+              In this digitalized world where everything succumbs to the intertwining webs of the internet, nothing and no one is ever truly safe from the venoms present in this deadly ecosystem.
+              <br>
+              <br>
+              We are looking for people of great skills to be part of this activity that will dive deep into cybersecurity and programming.
+              <br>
+              <br>
+              And <b>YOU</b> might just be the one.
+              </i>
+          </div>
+          <br>
+          <br>
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="white" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+          </svg>
+        </div>
+
+        <div class="registrationMsg">
+          <div class="regDetails">
+            <span class="details">Details</span>
+            <ol>
+              <li>
+                The grade 10 level will be divided into three (3): 10-Office Technology, 10-Entrepreneurship, and 10-Bookkeeping, respectively.
+              </li>
+              <br>
+              <li>
+                The activity consists of multiple stages. Clues will be given all throughout that will lead to other clues until the puzzle is decoded.
+              </li>
+              <br>
+              <li>
+                <b>Strictly Five (5) volunteers per section</b> will be needed. You may discuss this with your fellow classmates to agree upon the volunteers that will be joining.
+              </li>
+              <br>
+              <li>
+                You must be Registered to the <a href="registration.html">Event Activities</a> to be eligible to join.
+              </li>
+              <br>
+              <li>
+                <b>High level of critical-thinking and cooperation between the participants will be needed.</b>
+              </li>
+            </ol>
+          </div>
+        </div>
+        
+        <form action="https://script.google.com/macros/s/AKfycbwgReA60MCDAKF1PlpjUEer7aU3mknPnM1LjmXrfxEUWqoicBMD_nkDGpY2zxo4TJa0iw/exec" method="POST" id="my-form">
+
+          <span class=formMsg>
+            Do you have what it takes?
+          </span>
+
+          <div class="name">
+            <label class="regQ">
+              Control Number
+              <div class="regP">
+                LCR
+                <input type="number" name="Control Number" required id="bgTest" min="000" max="999" placeholder="000-999"/>
+              </div>
+              
+            </label>
+          </div>
+      
+          <input type="submit" value="Submit"/>
+        </form>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('toggle');
+    const sidebar = document.getElementById('sidebar');
+    const main = document.getElementById('mainContent');
+
+    document.onclick = function(e){
+      if(e.target.id !== 'sidebar' && e.target.id !== 'toggle'){
+        toggle.classList.remove('active')
+        sidebar.classList.remove('active')
+        main.classList.remove('active')
+      }
+    }
+
+    toggle.onclick = function(){
+      toggle.classList.toggle('active');
+      sidebar.classList.toggle('active');
+      main.classList.toggle('active')
+    }
+  </script>
+  <script>
+    window.addEventListener("load", function() {
+  const form = document.getElementById('my-form');
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      alert("You are now in the registration process. Please wait for further confirmation. Thank you.");
+    })
+  });
+});
+  </script>
+  <script src="countdown.js"></script>
+</body>
+</html>

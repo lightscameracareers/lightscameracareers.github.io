@@ -1,0 +1,82 @@
+@media (min-width: 300px){
+  
+  /*main*/
+
+  #mainContent{
+    height: 100%;
+    z-index: -9999;
+    background-color: #e0b46c;
+  }
+
+  #mainContent.active{
+    background-color: #e0b46c;
+    transition: 0.65s ease-in-out;
+    -webkit-filter: blur(8px);
+  }
+
+  .introWrapper img{
+    width: 117px;
+  }
+
+  .introWrapper{
+    text-align: center;
+    padding-top: 78px;
+  }
+
+  .titleIntro{
+    margin-top: 13px;
+    font-size: 3em;
+    font-family: 'audiowide';
+    color: black;
+    font-weight: bolder;
+  }
+
+  .programFlowWrapper{
+    margin-top: 52px;
+    padding-bottom: 52px;
+  }
+
+  .programFlowContainer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+  }
+
+  .programFlowContainer table{
+    background-color: #a00c04;
+    color: #f8eca4;
+    width: 80%;
+  }
+
+  table, th, td{
+    border-collapse: collapse;
+    border: 1px solid #f8eca4
+  }
+
+  table th{
+    height: 5vh;
+    font-family: Goldman;
+    font-size: 1.3em;
+  }
+
+  table td{
+    height: 8vh;
+    font-family: Russo One;
+    font-size: 1em;
+    padding: 13px 26px 13px 26px;
+  }
+
+  .rN{
+    background-color: #383434;
+    font-size: 1.3em;
+    font-family: audiowide;
+    color: #f8eca4;
+    text-align: center;
+    padding: 26px 26px 52px 26px;
+  }
+
+  .rN a{
+    color: #e0b46c;
+  }
+}

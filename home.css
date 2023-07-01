@@ -1,0 +1,156 @@
+@media (min-width: 300px){
+  
+  /*main*/
+
+  #mainContent{
+    height: 100vh;
+    z-index: -9999;
+  }
+
+  #mainContent.active{
+    background-color: #141414;
+    transition: 0.65s ease-in-out;
+    -webkit-filter: blur(8px);
+  }
+
+  .mainContentContainer{
+  }
+
+  /* intro */
+
+  .introContainer{
+    padding-top: 78px;
+    height: auto;
+    min-height: 100vh;
+    background-color: #e0b46c;
+    text-align: center;
+  }
+
+  .introContainer img{
+    width: 234px;
+    border-radius: 60%;
+  }
+
+  .introWrapper{
+    text-align: center;
+  }
+
+  .titleIntro{
+    margin-top: 13px;
+    font-size: 3.9em;
+    font-family: 'Luckiest Guy';
+    color: black;
+  }
+
+  /* intro - date and venue */
+
+  .dateVenueContainer{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 10px;
+    width: auto;
+  }
+
+  .date{
+    font-size: 2.1rem;
+    font-family: paytone one;
+    font-weight: 900;
+    color: #740d07;
+  }
+
+  .venue{
+    font-size: 1.3rem;
+    font-family: paytone one;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #a00c04;
+  }
+
+  /* intro - countdown */
+
+  .countdownContainer {
+    color: #f8eca4;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Bruno Ace';
+    background-color: #a00c04;
+    padding: 1em;
+  }
+
+  h1 {
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+
+  ul.ulCd{
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  li.cd {
+    display: inline-block;
+    font-size: 0.7em;
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 0.52em;
+    padding-bottom: 1em;
+    color: rgb(216, 216, 216);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+  }
+  
+  li.cd span {
+    display: block;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #f8eca4;
+    padding: 0.26em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  /* facebook */
+
+  .fbWrapper{
+    margin: 2.6em auto 1.3em auto;
+  }
+
+  .fbContainer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+
+  .fbTitle{
+    font-family: luckiest guy;
+    font-size: 1.3em;
+    width: 78%;
+    text-align: center;
+    margin: auto;
+  }
+
+  /* intro-end */
+
+  .introEnd{
+    padding: 26px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: nova round;
+    font-weight: bold;
+    color: #a85c3c;
+  }
+
+  .introEnd a:link,
+  .introEnd a:visited{
+    text-decoration: none;
+    color: #a85c3c;
+  }
+}

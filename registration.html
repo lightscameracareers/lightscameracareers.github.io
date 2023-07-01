@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="registration.css">
+  <link rel="stylesheet" type="text/css" href="headerSide.css">
+  <link rel="stylesheet" type="text/css" href="all.css">
+  <link rel="stylesheet" type="text/css" href="evC.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="headerContainer">
+      <div class="headerWrapper">
+
+        <a href="home.html">
+          <div class="logo">
+            <img src="logo.png">
+          </div>
+        </a>
+        
+        <div id="sidebar">
+          <div id="introSidebar">
+            <div id="titleSidebar">
+              Lights, Camera, Careers!
+            </div>
+          </div>
+
+          <nav>
+            <ul>
+              <li><a href="home.html" target="_self">Home</a></li>
+              <li><a href="activities.html">Activities</a></li>
+              <li><a href="program.html">Program Flow</a></li>
+              <li><a href="registration.html">Registration</a></li>
+            </ul>
+          </nav>
+
+          <div class="ccSidebar">
+            <a href="https://www.facebook.com/LightsCameraCareers">
+              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" fill="#a00c04" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg>
+            </a>
+            
+            <a href="mailto:lightscameracareers@gmail.com">
+              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" fill="#a00c04" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <div id="toggle"></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="mainContent">
+      <div class="mainContentContainer">
+
+        <div class="introWrapper">
+          <div class="logoIntro">
+            <img src="logoHead.jpg">
+          </div>
+          <div class="titleIntro">
+            REGISTRATION
+          </div>
+        </div>
+
+        <div class="registrationMsg">
+          *Upon registration, you will be registered and eligible to join the Career-pathing Seminar and the <a href="activities.html" target="_blank">Event Activities</a>
+          <i>(except for ICT which has another registration process posted below this form)</i>.
+        </div>
+        
+        <form action="https://script.google.com/macros/s/AKfycbykLp0zmPrc1d09BXM0EdzYZyucj3imJXYlp7AV0_JkXRulAAREPHoQzf82WsCbe_iCOA/exec" method="POST" id="my-form">
+
+          <div class="emailAdd">
+            <label class="regQ">
+              Email Address
+              <input type="email" name="Email" required id="bgTest"/>
+            </label>
+          </div>
+          <div class="name">
+            <label class="regQ">
+              Name (SURNAME, FIRST NAME, M.I.)
+              <input type="text" name="Name" required id="bgTest"/>
+            </label>
+          </div>
+          
+          <div class="section">
+            <label class="regQ">
+              Section
+              <div class="sectionOptions">
+                <input name="Section" type="radio" required value="10 - BOOKKEEPING" id="10bk">
+                <label for="10bk">10 - Bookkeeping</label>
+                <br>
+                <input name="Section" type="radio" required value="10 - ENTREPRENEURSHIP" id="10ent">
+                <label for="10ent">10 - Entrepreneurship</label>
+                <br>
+                <input name="Section" type="radio" required value="10 - OFFICE TECHNOLOGY" id="10ot">
+                <label for="10ot">10 - Office Technology</label>
+              </div>
+            </label>
+          </div>
+
+          <div class="registrationMsg">
+
+            By submitting this registration form, you grant your free, voluntary, and unconditional consent to the collection and processing of all the data abovementioned relating to you to the <a href="committees.html" target="_blank">
+            Lights, Camera, Careers!'' Organizers
+            </a>, by whatever means in accordance with <a href="https://privacy.gov.ph/data-privacy-act/" target="_blank">Republic Act (R.A.) 10173</a>, otherwise known as the <a href="https://privacy.gov.ph/data-privacy-act/" target="_blank">
+            “Data Privacy Act of 2012” </a> of the Republic of the Philippines, including its Implementing Rules and Regulations (IRR) as well as all other guidelines and issuances by the National Privacy Commission (NPC).
+          </div>
+      
+          <input type="submit" value="Submit"/>
+        </form>
+
+        <div class="ictReg">
+          <a href="ictRegistration.html">[Go to ICT Registration]</a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+          </svg>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('toggle');
+    const sidebar = document.getElementById('sidebar');
+    const main = document.getElementById('mainContent');
+
+    document.onclick = function(e){
+      if(e.target.id !== 'sidebar' && e.target.id !== 'toggle'){
+        toggle.classList.remove('active')
+        sidebar.classList.remove('active')
+        main.classList.remove('active')
+      }
+    }
+
+    toggle.onclick = function(){
+      toggle.classList.toggle('active');
+      sidebar.classList.toggle('active');
+      main.classList.toggle('active')
+    }
+  </script>
+  <script>
+    window.addEventListener("load", function() {
+  const form = document.getElementById('my-form');
+  form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const data = new FormData(form);
+    const action = e.target.action;
+    fetch(action, {
+      method: 'POST',
+      body: data,
+    })
+    .then(() => {
+      alert("Registration Successful! An e-mail will be sent day/s before the event proper to confirm your registration. Please check your inbox regularly and spam folder.");
+    })
+  });
+});
+  </script>
+  <script src="countdown.js"></script>
+</body>
+</html>
